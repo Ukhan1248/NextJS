@@ -1,7 +1,7 @@
 import { getFeaturedEvents } from "../helpers/api-util";
 import EventList from "../components/events/event-list";
 
-function Homepage(props) {
+function HomePage(props) {
   return (
     <div>
       <EventList items={props.events} />
@@ -20,4 +20,4 @@ export async function getStaticProps() {
   };
 }
 
-export default Homepage;
+export default HomePage;
