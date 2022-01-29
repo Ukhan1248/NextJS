@@ -22,9 +22,6 @@ function Comments(props) {
 
   function toggleCommentsHandler() {
     setShowComments(prevStatus => !prevStatus);
-
-    if (!showComments) {
-    }
   }
 
   function addCommentHandler(commentData) {
