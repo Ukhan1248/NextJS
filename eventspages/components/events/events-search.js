@@ -30,6 +30,8 @@ function EventsSearch(props) {
             <option value="2026">2026</option>
             <option value="2027">2027</option>
             <option value="2028">2028</option>
+            <option value="2029">2029</option>
+            <option value="2030">2030</option>
           </select>
         </div>
         <div className={classes.control}>
